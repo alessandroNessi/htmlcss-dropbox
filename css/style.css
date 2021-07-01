@@ -137,7 +137,6 @@ header .large-container div.relative p{
 .column{
     width: calc(100%/3 - 40px/3);
     text-align: center;
-    height: 1100px;
 }
 .column.left{
     margin-right: 20px;
@@ -170,7 +169,8 @@ header .large-container div.relative p{
     margin-top: 20px;
 }
 #business-plan .small-container .table .column-content .grey-text{
-    color: rgb(208, 208, 211);
+    color: rgb(106, 121, 134);
+    margin-top: 10px;
 }
 #business-plan .small-container .table .column-content a{
     margin-top: 50px;
@@ -184,6 +184,9 @@ header .large-container div.relative p{
     padding-left: 0px;
     text-decoration: underline;
     color: blue;
+}
+#business-plan .column{
+    height: 1100px;
 }
 /* ////BUSINESSPLAN TABLE */
 
