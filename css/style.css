@@ -17,6 +17,21 @@ body{
     display: table;
     clear: both;
 }
+.inline-block{
+    display: inline-block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.large-container{
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+    background-color: violet;
+}
 /*/// COMMON STYLES */
 
 /* BUTTONS */
@@ -49,10 +64,21 @@ a{
     display: inline-block;
     padding: 25px;
 }
-#header-nav li.left{
-    float: left;
+header section{
+    background-color: rgb(180, 208, 231);
 }
-#header-nav li.right{
-    float: right;
+header h1{
+    padding: 400px 0 100px 0;
+}
+header p{
+    width: 40%;
+    min-width: 150px;
+    padding-bottom: 200px;
+}
+header .large-container img.banner{
+    width: calc(50% *0.8);
+    max-width: calc(1400px * 0.8);
+    position: absolute;
+    right:15%
 }
 /* ///HEADER */
