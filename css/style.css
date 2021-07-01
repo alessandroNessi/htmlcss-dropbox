@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight:600;
 }
 .relative{
     position: relative;
@@ -42,7 +43,7 @@ body{
     max-width: 1400px;
     margin: auto;
     height: 800px;
-    background-color: pink;
+    background-color:lightcoral;
 }
 /*/// COMMON STYLES */
 
@@ -56,7 +57,6 @@ a{
     color: black;
     padding: 5px 20px;
     vertical-align: middle;
-    font-weight:600;
 }
 /* ////BUTTONS */
 
@@ -67,11 +67,11 @@ header h1{
 h2{
     font-size: 2rem;
 }
-header .large-container div.relative{
-    font-weight: 600;
-}
 header .large-container div.relative i{
     font-size: 3rem;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 900;
 }
 /* ///TYPO */
 
@@ -86,7 +86,7 @@ header .large-container div.relative i{
 }
 #header-nav li{
     display: inline-block;
-    padding: 25px;
+    padding: 25px 15px;
 }
 /* ///header navbar */
 /* header banner */
@@ -128,14 +128,33 @@ header .large-container div.relative p{
 #business-plan h2{
     margin-bottom: 50px;
 }
+#business-plan .small-container .radiobutton input[type=radio]{
+    transform:scale(1.5);
+    margin: 0 0 40px 10px;
+}
+.lightgrey-border{
+    border: solid rgb(208, 208, 211) 1px;
+}
+
 .column{
-    height: 500px;
-    background-color: powderblue;
     width: calc(100%/3 - 40px/3);
+    text-align: center;
 }
 .column.left{
     margin-right: 20px;
 }
+/* BUSINESSPLAN TABLE */
+#business-plan .small-container .table .column-title{
+    padding: 10px 0;
+    border-bottom: solid rgb(208, 208, 211) 1px;
+}
+#business-plan .small-container .table .column-content{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+/* ////BUSINESSPLAN TABLE */
+
 /*//// BUSINESS PLAN SECTION */
 
 /*//// MAIN */
