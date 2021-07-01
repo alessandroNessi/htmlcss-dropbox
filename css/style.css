@@ -43,6 +43,12 @@ body{
     max-width: 1400px;
     margin: auto;
 }
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
 /*/// COMMON STYLES */
 
 /* BUTTONS */
@@ -154,10 +160,12 @@ header .large-container div.relative p{
 }
 #business-plan .small-container .table .column-content li{
     margin-top: 30px;
-    list-style-type: none;
 }
-#business-plan .small-container .table .column-content li i{
+#business-plan .small-container .table .column-content li span{
     color: rgb(0, 97, 255);
+}
+#business-plan .small-container .table .column-content .fa-ul{
+    margin-left: 10%;
 }
 #business-plan .small-container .table .column-content h4{
     margin-top: 40px;
@@ -190,6 +198,11 @@ header .large-container div.relative p{
 }
 /* ////BUSINESSPLAN TABLE */
 
-/*//// BUSINESS PLAN SECTION */
+/*ENTERPRISE SECTION*/
+#enterprise .small-container .text-container{
+    width: 100%;
+    padding: 10px 20px;
+}
+/*////ENTERPRISE SECTION*/
 
 /*//// MAIN */
