@@ -9,6 +9,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.relative{
+    position: relative;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -20,6 +23,9 @@ body{
 .inline-block{
     display: inline-block;
 }
+.block{
+    display: block;
+}
 .left{
     float: left;
 }
@@ -28,9 +34,8 @@ body{
 }
 .large-container{
     width: 80%;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
-    background-color: violet;
 }
 /*/// COMMON STYLES */
 
@@ -49,7 +54,15 @@ a{
 /* ////BUTTONS */
 
 /* TYPO */
-
+header h1{
+    font-size: 5rem;
+}
+header .large-container div.relative{
+    font-weight: 600;
+}
+header .large-container div.relative i{
+    font-size: 3rem;
+}
 /* ///TYPO */
 
 /* HEADER */
@@ -58,7 +71,7 @@ a{
     top: 0%;
     width: 100%;
     background-color: white;
-    border: solid black 1px;
+    z-index: 2;
 }
 #header-nav li{
     display: inline-block;
@@ -67,18 +80,28 @@ a{
 header section{
     background-color: rgb(180, 208, 231);
 }
-header h1{
-    padding: 400px 0 100px 0;
+header section .large-container{
+    padding: 150px 0 100px 0;
 }
 header p{
-    width: 40%;
+    width: 35%;
     min-width: 150px;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
+}
+header h1{
+    margin-bottom: 50px;
 }
 header .large-container img.banner{
-    width: calc(50% *0.8);
-    max-width: calc(1400px * 0.8);
+    width: 60%;
     position: absolute;
-    right:15%
+    top: 0%;
+    left: 40%;
 }
+header .large-container div.relative a{
+    margin-bottom:10px;
+}
+header .large-container div.relative p{
+    margin-bottom:20px;
+}
+
 /* ///HEADER */
