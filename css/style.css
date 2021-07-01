@@ -42,8 +42,6 @@ body{
     width: 70%;
     max-width: 1400px;
     margin: auto;
-    height: 800px;
-    background-color:lightcoral;
 }
 /*/// COMMON STYLES */
 
@@ -139,6 +137,7 @@ header .large-container div.relative p{
 .column{
     width: calc(100%/3 - 40px/3);
     text-align: center;
+    height: 1100px;
 }
 .column.left{
     margin-right: 20px;
@@ -146,12 +145,45 @@ header .large-container div.relative p{
 /* BUSINESSPLAN TABLE */
 #business-plan .small-container .table .column-title{
     padding: 10px 0;
+    font-size: 1.2rem;
     border-bottom: solid rgb(208, 208, 211) 1px;
 }
 #business-plan .small-container .table .column-content{
     width: 80%;
     margin: auto;
     text-align: left;
+}
+#business-plan .small-container .table .column-content li{
+    margin-top: 30px;
+    list-style-type: none;
+}
+#business-plan .small-container .table .column-content li i{
+    color: rgb(0, 97, 255);
+}
+#business-plan .small-container .table .column-content h4{
+    margin-top: 40px;
+}
+#business-plan .small-container .table .column-content h3{
+    margin-top: 30px;
+}
+#business-plan .small-container .table .column-content p{
+    margin-top: 20px;
+}
+#business-plan .small-container .table .column-content .grey-text{
+    color: rgb(208, 208, 211);
+}
+#business-plan .small-container .table .column-content a{
+    margin-top: 50px;
+}
+#business-plan .small-container .table .column-content .small-line{
+    margin-top: 20px;
+    width: 50px;
+    border-bottom: solid rgb(208, 208, 211) 1px;
+}
+#business-plan .small-container .table .column-content a.link{
+    padding-left: 0px;
+    text-decoration: underline;
+    color: blue;
 }
 /* ////BUSINESSPLAN TABLE */
 
