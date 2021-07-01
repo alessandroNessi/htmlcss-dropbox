@@ -15,7 +15,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.clarfix::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -37,6 +37,13 @@ body{
     max-width: 1600px;
     margin: auto;
 }
+.small-container{
+    width: 70%;
+    max-width: 1400px;
+    margin: auto;
+    height: 800px;
+    background-color: pink;
+}
 /*/// COMMON STYLES */
 
 /* BUTTONS */
@@ -57,6 +64,9 @@ a{
 header h1{
     font-size: 5rem;
 }
+h2{
+    font-size: 2rem;
+}
 header .large-container div.relative{
     font-weight: 600;
 }
@@ -66,6 +76,7 @@ header .large-container div.relative i{
 /* ///TYPO */
 
 /* HEADER */
+/* header navbar */
 #header-nav{
     position: fixed;
     top: 0%;
@@ -77,6 +88,8 @@ header .large-container div.relative i{
     display: inline-block;
     padding: 25px;
 }
+/* ///header navbar */
+/* header banner */
 header section{
     background-color: rgb(180, 208, 231);
 }
@@ -86,7 +99,6 @@ header section .large-container{
 header p{
     width: 35%;
     min-width: 150px;
-    /* padding-bottom: 200px; */
 }
 header h1{
     margin-bottom: 50px;
@@ -103,5 +115,27 @@ header .large-container div.relative a{
 header .large-container div.relative p{
     margin-bottom:20px;
 }
-
+/* ////header banner */
 /* ///HEADER */
+
+/* MAIN */
+
+/* BUSINESS PLAN SECTION */
+#business-plan{
+    margin: 200px 0 0 20px;
+
+}
+#business-plan h2{
+    margin-bottom: 50px;
+}
+.column{
+    height: 500px;
+    background-color: powderblue;
+    width: calc(100%/3 - 40px/3);
+}
+.column.left{
+    margin-right: 20px;
+}
+/*//// BUSINESS PLAN SECTION */
+
+/*//// MAIN */
