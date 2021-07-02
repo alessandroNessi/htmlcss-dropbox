@@ -71,7 +71,7 @@ header h1{
 h2{
     font-size: 2rem;
 }
-header .large-container div.relative i{
+header .large-container .banner-container .text-container i{
     font-size: 3rem;
 }
 h1, h2, h3, h4, h5, h6{
@@ -103,26 +103,22 @@ header section{
 header section .large-container{
     padding-top: 150px;
 }
-header section .underbanner-responsive{
-    height: 13vh;
+header section .banner-container .text-container{
+    width: 30%;
 }
-header p{
-    width: 35%;
-    min-width: 150px;
+header section .banner-container img.banner{
+    width: 60%;
+    transform: scale(1.2);
+    position: relative;
+    top: 50px;
 }
 header h1{
     margin-bottom: 50px;
 }
-header .large-container img.banner{
-    width: 60%;
-    position: absolute;
-    top: 0%;
-    left: 40%;
-}
-header .large-container div.relative a{
+header .large-container .banner-container .text-container a{
     margin-bottom:10px;
 }
-header .large-container div.relative p{
+header .large-container .banner-container .text-container p{
     margin-bottom:20px;
 }
 /* ////header banner */
