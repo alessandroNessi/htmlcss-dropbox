@@ -163,9 +163,12 @@ header .large-container .banner-container .text-container p{
 #business-plan .small-container .table .column-content li{
     margin-top: 30px;
 }
-/* #business-plan .small-container .table .column-content li span{
-    color: rgb(0, 97, 255);
-} */
+#business-plan .small-container .table .column-content ul.prices, #business-plan .small-container .table .column-content ul.advantages{
+    list-style: none;
+}
+#business-plan .small-container .table .column-content ul.prices{
+    margin-bottom: 50px;
+}
 #business-plan .small-container .table .column-content .fa-ul li::before{
     content: "\f00c";
     color: rgb(0, 97, 255);
@@ -179,9 +182,6 @@ header .large-container .banner-container .text-container p{
 }
 #business-plan .small-container .table .column-content h4{
     margin-top: 40px;
-}
-#business-plan .small-container .table .column-content h3{
-    margin-top: 30px;
 }
 #business-plan .small-container .table .column-content p{
     margin-top: 20px;
@@ -202,6 +202,7 @@ header .large-container .banner-container .text-container p{
     padding-left: 0px;
     text-decoration: underline;
     color: blue;
+    vertical-align: top;
 }
 #business-plan .column{
     min-height: 1100px;
@@ -239,8 +240,11 @@ header .large-container .banner-container .text-container p{
 #partner .small-container .float-container .text-container p{
     margin: 30px 0;
 }
-#partner .small-container .float-container{
-    width: 100%;
+#partner .small-container .float-container .text-container{
+    padding-left: 50px;
+}
+#partner .small-container .float-container .text-container a{
+    border: 1px solid black;
 }
 /* ////PARTNER SECTION */
 
