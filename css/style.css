@@ -21,6 +21,12 @@ body{
     display: table;
     clear: both;
 }
+.underline{
+    text-decoration: underline;
+}
+.none{
+    list-style: none;
+}
 .inline-block{
     display: inline-block;
 }
@@ -46,6 +52,9 @@ body{
 .text-left{
     text-align: left;
 }
+.text-center{
+    text-align: center;
+}
 .text-right{
     text-align: right;
 }
@@ -69,7 +78,8 @@ header h1{
     font-size: 5rem;
 }
 h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 80px;
 }
 header .large-container .banner-container .text-container i{
     font-size: 3rem;
@@ -131,9 +141,6 @@ header .large-container .banner-container .text-container p{
     margin: 200px 0 20px 0;
 
 }
-#business-plan h2{
-    margin-bottom: 50px;
-}
 #business-plan .small-container .radiobutton input[type=radio]{
     transform:scale(1.5);
     margin: 0 0 40px 10px;
@@ -144,7 +151,7 @@ header .large-container .banner-container .text-container p{
 
 .column{
     width: calc(100%/3 - 40px/3);
-    text-align: center;
+    /* text-align: center; */
 }
 .column.left{
     margin-right: 20px;
@@ -158,7 +165,6 @@ header .large-container .banner-container .text-container p{
 #business-plan .small-container .table .column-content{
     width: 80%;
     margin: auto;
-    text-align: left;
 }
 #business-plan .small-container .table .column-content li{
     margin-top: 30px;
@@ -200,7 +206,6 @@ header .large-container .banner-container .text-container p{
 }
 #business-plan .small-container .table .column-content a.link{
     padding-left: 0px;
-    text-decoration: underline;
     color: blue;
     vertical-align: top;
 }
@@ -222,7 +227,6 @@ header .large-container .banner-container .text-container p{
     padding: 20px 30px;
 }
 #enterprise .small-container .small-title{
-    text-align: center;
     border-bottom: solid rgb(208, 208, 211) 1px;
 }
 /*////ENTERPRISE SECTION*/
@@ -247,5 +251,17 @@ header .large-container .banner-container .text-container p{
     border: 1px solid black;
 }
 /* ////PARTNER SECTION */
+
+/* OPERATIONS SECTION */
+#operations .small-container .row .table .column ul li img{
+    width: 100%;
+}
+#operations .small-container .row .table .column ul li{
+    margin: 20px;
+}
+#operations .small-container .row .table .column ul{
+    margin-bottom: 80px;
+}
+/*//// OPERATIONS SECTION */
 
 /*//// MAIN */
