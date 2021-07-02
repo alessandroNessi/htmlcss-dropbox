@@ -13,6 +13,9 @@
 .relative{
     position: relative;
 }
+.bluelink{
+    color: blue;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -150,11 +153,14 @@ header .large-container .banner-container .text-container p{
 }
 
 .column{
-    width: calc(100%/3 - 40px/3);
+    width: calc(100%/3 - 60px/3);
     /* text-align: center; */
 }
-.column.left{
-    margin-right: 20px;
+.column.middle{
+    padding: 0 30px
+}
+.column.left.margin{
+    margin-right: 30px;
 }
 /* BUSINESSPLAN TABLE */
 #business-plan .small-container .table .column-title{
@@ -263,5 +269,32 @@ header .large-container .banner-container .text-container p{
     margin-bottom: 80px;
 }
 /*//// OPERATIONS SECTION */
+
+/* CUSTOMERS SECTION */
+#customers .small-container{
+    padding-top: 80px;
+}
+#customers .small-container h2{
+    margin-bottom: 0;
+}
+#customers .small-container a{
+    padding: 40px 0;
+}
+/* customer table */
+#customers .img-container{
+    display: block;
+    width: 50%;
+    padding-bottom: 50%;
+    background-color: pink;
+    border: solid black 1px;
+}
+#customers .column{
+    width: calc(100%/3 - 300px/3);
+    /* text-align: center; */
+}
+#customers .column.middle{
+    padding: 0 150px
+}
+/* ////CUSTOMERS SECTION */
 
 /*//// MAIN */
