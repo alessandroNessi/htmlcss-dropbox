@@ -297,6 +297,11 @@ header .large-container .banner-container .text-container p{
     width: 50%;
     padding-bottom: 50%;
 }
+/* #bgrcover{
+    display: block;
+    width: 50%;
+    padding-bottom: 50%;
+} */
 #customers .column{
     width: calc(100%/3 - 300px/3);
 }
