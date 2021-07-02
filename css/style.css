@@ -89,20 +89,23 @@ a{
 
 /* TYPO */
 header h1{
-    font-size: 5rem;
+    font-size: 6rem;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 80px;
 }
 header .large-container .banner-container .text-container i{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 h1, h2, h3, h4, h5, h6{
     font-weight: 900;
 }
 h3{
     font-size: 1.5rem;
+}
+h4{
+    font-size: 1.25rem;
 }
 /* ///TYPO */
 
@@ -376,8 +379,6 @@ header .large-container .banner-container .text-container p{
 #faq li:last-child{
     border-bottom: solid rgb(220, 220, 222) 1px;
 }
-#faq li p{
-}
 #faq li .arrow::after{
     content: '\22C1';
     display: inline-block;
@@ -387,3 +388,29 @@ header .large-container .banner-container .text-container p{
 /* ////FAQ SECTION */
 
 /*//// MAIN */
+/* FOOTER */
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+footer .large-container .clearfix{
+    padding: 100px 0;
+}
+footer .large-container .column{
+    width: calc(100% / 5 - 160px / 5) ;
+}
+footer .large-container .column h4{
+    padding-bottom: 40px;
+}
+footer .large-container .column li{
+    padding: 10px 0;
+}
+footer .large-container .left{
+    margin-left: 40px;
+}
+footer p.language{
+    padding: 40px 0;
+    color: rgb(156, 156, 156);
+    border-top: solid rgb(156, 156, 156) 1px;
+}
+/* ////FOOTER */
