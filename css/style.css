@@ -100,9 +100,9 @@ h3{
 header section{
     background-color: rgb(180, 208, 231);
 }
-/* header section .large-container{
-    padding: 150px 0 100px 0;
-} */
+header section .large-container{
+    padding-top: 150px;
+}
 header section .underbanner-responsive{
     height: 13vh;
 }
@@ -232,5 +232,23 @@ header .large-container div.relative p{
     border-bottom: solid rgb(208, 208, 211) 1px;
 }
 /*////ENTERPRISE SECTION*/
+
+/* PARTNER SECTION */
+#partner{
+    padding: 120px 0;
+}
+#partner .small-container .float-container>*{
+    width: 50%;
+}
+#partner .small-container .float-container .text-container h3{
+    margin-top: 40px;
+}
+#partner .small-container .float-container .text-container p{
+    margin: 30px 0;
+}
+#partner .small-container .float-container{
+    width: 100%;
+}
+/* ////PARTNER SECTION */
 
 /*//// MAIN */
