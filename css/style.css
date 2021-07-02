@@ -10,6 +10,12 @@
     box-sizing: border-box;
     font-weight:600;
 }
+.translate-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .relative{
     position: relative;
 }
@@ -23,6 +29,11 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+.small-line{
+    margin-top: 30px;
+    width: 50px;
+    border-bottom: solid rgb(208, 208, 211) 1px;
 }
 .underline{
     text-decoration: underline;
@@ -205,11 +216,11 @@ header .large-container .banner-container .text-container p{
 #business-plan .small-container .table .column-content a{
     margin-top: 50px;
 }
-#business-plan .small-container .table .column-content .small-line{
+/* #business-plan .small-container .table .column-content .small-line{
     margin-top: 20px;
     width: 50px;
     border-bottom: solid rgb(208, 208, 211) 1px;
-}
+} */
 #business-plan .small-container .table .column-content a.link{
     padding-left: 0px;
     color: blue;
@@ -285,15 +296,50 @@ header .large-container .banner-container .text-container p{
     display: block;
     width: 50%;
     padding-bottom: 50%;
-    background-color: pink;
-    border: solid black 1px;
 }
 #customers .column{
     width: calc(100%/3 - 300px/3);
-    /* text-align: center; */
 }
 #customers .column.middle{
-    padding: 0 150px
+    width: calc(100%/3 + 200px);
+    padding: 60px 40px;
+    background-color: rgb(245, 245, 245);
+}
+#customers .column.middle img{
+    width: calc((100%-300px)/3 * 0.6);
+    height: calc(100%/3 - 300px/3);
+}
+#designit{
+    background-color: rgb(162, 211, 155);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+#asu{
+    background-color: rgb(97, 8, 43);
+}
+#florida{
+    background-color: rgb(0, 147, 206);
+}
+#topps{
+    background-color: rgb(255, 28, 28);
+}
+#bicycle{
+    background-color: rgb(213, 0, 31);
+}
+#hearst{
+    background-color: rgb(180, 208, 231);
+}
+#lonely{
+    background-color: rgb(13, 36, 129);
+}
+#clear-channel{
+    background-color: rgb(255, 216, 48);
+}
+#customers .big-table .column .img-container img{
+    width: 60%;
+}
+#customers .big-table .column .comment{
+    margin: 60px 0;
 }
 /* ////CUSTOMERS SECTION */
 
