@@ -97,8 +97,11 @@ h1, h2, h3, h4, h5, h6{
 header section{
     background-color: rgb(180, 208, 231);
 }
-header section .large-container{
+/* header section .large-container{
     padding: 150px 0 100px 0;
+} */
+header section .underbanner-responsive{
+    height: 13vh;
 }
 header p{
     width: 35%;
