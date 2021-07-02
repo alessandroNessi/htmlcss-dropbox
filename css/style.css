@@ -297,22 +297,17 @@ header .large-container .banner-container .text-container p{
     width: 50%;
     padding-bottom: 50%;
 }
-/* #bgrcover{
-    display: block;
-    width: 50%;
-    padding-bottom: 50%;
-} */
 #customers .column{
     width: calc(100%/3 - 300px/3);
 }
 #customers .column.middle{
     width: calc(100%/3 + 200px);
     padding: 60px 40px;
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
 }
 #customers .column.middle img{
     width: calc((100%-300px)/3 * 0.6);
-    height: calc(100%/3 - 300px/3);
+    height: inherit;
 }
 #designit{
     background-color: rgb(162, 211, 155);
@@ -346,6 +341,49 @@ header .large-container .banner-container .text-container p{
 #customers .big-table .column .comment{
     margin: 60px 0;
 }
+#customers .big-table{
+    background-color: rgb(245, 245, 245);
+}
 /* ////CUSTOMERS SECTION */
+
+/* FREE-TRIAL SECTION */
+#free-trial h2{
+    color: rgb(97, 8, 43);
+    margin: 0;
+}
+#free-trial a{
+    background-color: white;
+}
+#free-trial .small-container{
+    padding: 80px 0;
+}
+#free-trial{
+    background-color: rgb(180, 208, 231);
+}
+/* ////FREE-TRIAL SECTION */
+
+/* FAQ SECTION */
+#faq{
+    padding: 80px;
+}
+#faq h3{
+    padding: 50px 0;
+}
+#faq li{
+    padding: 20px 0;
+    border-top: solid rgb(220, 220, 222) 1px;
+}
+#faq li:last-child{
+    border-bottom: solid rgb(220, 220, 222) 1px;
+}
+#faq li p{
+}
+#faq li .arrow::after{
+    content: '\22C1';
+    display: inline-block;
+    float: right;
+    padding-right: 50px;
+}
+/* ////FAQ SECTION */
 
 /*//// MAIN */
