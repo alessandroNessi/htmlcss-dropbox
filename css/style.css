@@ -200,8 +200,8 @@ header .large-container .banner-container .text-container p{
     color: rgb(0, 97, 255);
     font-weight: 900;
     display: inline-block;
-    margin-left:-1em;
     font-family: "Font Awesome 5 Free";
+    margin-left:-1em;
 }
 #business-plan .small-container .table .column-content .fa-ul{
     margin-left: 1em;
@@ -314,6 +314,8 @@ header .large-container .banner-container .text-container p{
 }
 #designit{
     background-color: rgb(162, 211, 155);
+}
+#designit img{
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
@@ -380,10 +382,11 @@ header .large-container .banner-container .text-container p{
     border-bottom: solid rgb(220, 220, 222) 1px;
 }
 #faq li .arrow::after{
-    content: '\22C1';
-    display: inline-block;
+    content: "\f078";
     float: right;
     padding-right: 50px;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
 }
 /* ////FAQ SECTION */
 
@@ -414,3 +417,15 @@ footer p.language{
     border-top: solid rgb(156, 156, 156) 1px;
 }
 /* ////FOOTER */
+/* HOVER EFFECTS*/
+#customers .big-table .row .img-container:hover{
+    display: block;
+    width: 50%;
+    padding-bottom: calc(50% - 40px);
+    border: 20px solid rgba(255,255,255,0.5);
+}
+a:hover{
+    transition: 0.2s;
+    font-size: 1.2rem;
+}
+/*////HOVER EFFECT*/
