@@ -381,7 +381,6 @@ header .large-container .banner-container .text-container p{
     content: "\f078";
     float: right;
     padding-right: 50px;
-    display: inline-block;
     font-family: "Font Awesome 5 Free";
 }
 /* ////FAQ SECTION */
