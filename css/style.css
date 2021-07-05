@@ -10,6 +10,11 @@
     box-sizing: border-box;
     font-weight:600;
 }
+.buildings-icon::before{
+    content: "\f1ad";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+}
 .translate-middle{
     position: absolute;
     top: 50%;
@@ -171,12 +176,8 @@ header .large-container .banner-container .text-container p{
 .lightgrey-border{
     border: solid rgb(208, 208, 211) 1px;
 }
-
 .column{
     width: calc(100%/3 - 60px/3);
-}
-.column.middle{
-    padding: 0 30px
 }
 .column.left.margin{
     margin-right: 30px;
@@ -193,9 +194,6 @@ header .large-container .banner-container .text-container p{
 #business-plan .small-container .table .column-content ul.prices, #business-plan .small-container .table .column-content ul.advantages{
     list-style: none;
 }
-#business-plan .small-container .table .column-content ul.prices{
-    margin-bottom: 50px;
-}
 #business-plan .small-container .table .column-content .fa-ul li::before{
     content: "\f00c";
     color: rgb(0, 97, 255);
@@ -207,7 +205,7 @@ header .large-container .banner-container .text-container p{
 #business-plan .small-container .table .column-content .fa-ul{
     margin-left: 1em;
 }
-#business-plan .small-container .table .column-content h4{
+#business-plan .small-container .table .column-content ul.advantages, #business-plan .small-container .table .column-content h4, #business-plan .small-container .table .column-content a{
     margin-top: 40px;
 }
 #business-plan .small-container .table .column-content p{
@@ -217,14 +215,6 @@ header .large-container .banner-container .text-container p{
     color: rgb(106, 121, 134);
     margin-top: 10px;
 }
-#business-plan .small-container .table .column-content a{
-    margin-top: 50px;
-}
-/* #business-plan .small-container .table .column-content .small-line{
-    margin-top: 20px;
-    width: 50px;
-    border-bottom: solid rgb(208, 208, 211) 1px;
-} */
 #business-plan .small-container .table .column-content a.link{
     padding-left: 0px;
     color: blue;
@@ -296,11 +286,24 @@ header .large-container .banner-container .text-container p{
 #customers .column{
     width: 30%;
 }
-#customers .column.middle{
-    width: 40%;
-    overflow: auto;
-    padding: 5% 2% 0 5%;
+.std-content{
+    padding: 70px 0 0 30px;
+    width: 100%;
 }
+/* .std-content{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+} */
+/* .asu-content{
+    visibility: hidden;
+    width: 700px;
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    background-color: red;
+    left: calc(100% + 70px);
+    top: 80px;
+} */
 #customers .column.middle img{
     width: calc((100%-300px)/3 * 0.6);
     height: inherit;
