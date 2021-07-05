@@ -63,6 +63,9 @@ body{
     max-width: 1400px;
     margin: auto;
 }
+.column-content{
+    padding: 30px;
+}
 .text-left{
     text-align: left;
 }
@@ -84,6 +87,9 @@ a{
     color: black;
     padding: 5px 20px;
     vertical-align: middle;
+}
+.button-large{
+    padding: 5px 50px;
 }
 /* ////BUTTONS */
 
@@ -168,7 +174,6 @@ header .large-container .banner-container .text-container p{
 
 .column{
     width: calc(100%/3 - 60px/3);
-    /* text-align: center; */
 }
 .column.middle{
     padding: 0 30px
@@ -177,14 +182,10 @@ header .large-container .banner-container .text-container p{
     margin-right: 30px;
 }
 /* BUSINESSPLAN TABLE */
-#business-plan .small-container .table .column-title{
+.small-container .column-title{
     padding: 10px 0;
     font-size: 1.2rem;
     border-bottom: solid rgb(208, 208, 211) 1px;
-}
-#business-plan .small-container .table .column-content{
-    width: 80%;
-    margin: auto;
 }
 #business-plan .small-container .table .column-content li{
     margin-top: 30px;
@@ -237,17 +238,9 @@ header .large-container .banner-container .text-container p{
 /*ENTERPRISE SECTION*/
 #enterprise .small-container{
     margin-top: 80px;
-    border: solid rgb(208, 208, 211) 1px;
 }
-#enterprise .small-container .text-container{
-    width: 100%;
-    padding: 10px 30px;
-}
-#enterprise .small-container p, #enterprise .small-container h4{
-    padding: 20px 30px;
-}
-#enterprise .small-container .small-title{
-    border-bottom: solid rgb(208, 208, 211) 1px;
+#enterprise .small-container h4{
+    padding: 20px 0;
 }
 /*////ENTERPRISE SECTION*/
 
@@ -301,12 +294,12 @@ header .large-container .banner-container .text-container p{
     padding-bottom: 50%;
 }
 #customers .column{
-    width: calc(100%/3 - 300px/3);
+    width: 30%;
 }
 #customers .column.middle{
-    width: calc(100%/3 + 200px);
-    padding: 60px 40px;
-    /* background-color: rgb(245, 245, 245); */
+    width: 40%;
+    overflow: auto;
+    padding: 5% 2% 0 5%;
 }
 #customers .column.middle img{
     width: calc((100%-300px)/3 * 0.6);
